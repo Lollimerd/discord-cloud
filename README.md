@@ -58,7 +58,7 @@ The project includes two versions:
 
 ### File Chunking
 
-Files larger than 25MB (Discord's file size limit) are split into smaller chunks:
+Files larger than 25MB (Discord's API limit) are split into smaller chunks:
 
 ```python
 chunk_size = 25 * 1024 * 1024  # 25 MB
