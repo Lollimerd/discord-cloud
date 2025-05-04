@@ -206,7 +206,7 @@ The encrypted version provides more detailed security-related information:
 █ File has been reassembled and saved to uploads directory
 ```
 
-The console output uses enhanced formatting for better visibility, with each log entry preceded by a colored block character (█) that would be appropriately colored in the actual terminal (green for INFO, yellow for WARNING, red for ERROR).
+The console output uses enhanced formatting for better visibility, with each log entry preceded by a colored block character █ that would be appropriately colored in the actual terminal (green for INFO, yellow for WARNING, red for ERROR).
 
 ## Security Considerations
 
