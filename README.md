@@ -1,6 +1,6 @@
 # Discord Storage System
 
-A cloud storage solution that leverages Discord channels as a storage backend, allowing users to upload, store, and download files through a simple web interface.
+A cloud storage solution that leverages Discord channels as a storage backend, allowing users to upload, store, and download files through a simple web interface. Users do not need to consider the size of the files because of nitro subscriptions or the file transfer limit set by discord.
 
 ## Features
 
