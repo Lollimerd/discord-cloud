@@ -165,7 +165,8 @@ The system uses colorlog for enhanced console output with different colors for:
 - (Secure version) Decrypts the file
 
 #### The project also includes several discord bot commands (defined in `dis_commands.py`)
-```
+
+```python
 @bot.command(name='channel_info')
 async def channel_info(ctx, channel_id: int):
     # Get channel information
@@ -190,7 +191,7 @@ The system includes error handling for common scenarios:
 - File not found
 - Metadata not found
 - Chunking/reassembly failures
-- (Secure version) Encryption/decryption failures
+- **(Secure version)** Encryption/decryption failures
 
 ## Limitations and Considerations
 
@@ -213,3 +214,5 @@ Potential improvements for the system:
 - Progress indicators for large file transfers
 - Enhanced key management
 - Compression before chunking
+- multiple files of upload & downloading process
+- improve encryption/decryption capabilities
