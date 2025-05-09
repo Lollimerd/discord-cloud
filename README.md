@@ -99,7 +99,7 @@ metadata = {
 }
 ```
 ### Writing metadata to file
-How to write metadata file in json format
+How to write the metadata file in json format, deletes local copy after upload as saved in discord server. When downloading, it finds the **metadata file** associated with a `specified file` that you searched. 
 ```python
 metadata_filename = os.path.join(DATA_DIRECTORY, f"{file_base}_metadata.json")
 with open(metadata_filename, 'w') as metadata_file:
